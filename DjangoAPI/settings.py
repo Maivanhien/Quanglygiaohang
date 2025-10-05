@@ -40,15 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api',
-    'chi_tiet_don_hang',
-    'dang_ky_giao_hang',
-    'dich_vu',
-    'don_hang_giao_hang',
-    'khach_hang',
-    'khoang_thoi_gian',
-    'khu_vuc',
-    'loai_mat_hang',
-    'thanh_vien_giao_hang',
+    'm',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -90,7 +82,7 @@ WSGI_APPLICATION = 'DjangoAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'Quanlygiaohang',
+        'NAME': 'Quanlyhethong',
         'USER': 'testapi',
         'PASSWORD': '123456',
         'HOST': 'localhost',
